@@ -4,7 +4,7 @@ numpc = random.randint(0,5)
 
 numuser = input('Digite um número entre 0 e 5: ')
 
-while(int(numuser) < 0 | int(numuser) > 5):
+while(int(numuser) < 0 or int(numuser) > 5):
     print('Número incorreto')
     numuser = input('Por favor, Digite um número entre 0 e 5')
 
