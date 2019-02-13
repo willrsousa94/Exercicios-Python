@@ -8,5 +8,5 @@ listas = [list1,list2]
 
 for n in range(2):
     for c in range(3):
-        print(listas[n][c])
+        print(listas[n][c].title())
 
