@@ -6,20 +6,18 @@ listas = [list1,list2]
 #Aqui serão criados dois laços de repetição aninhados para percorrer pela lista
 #Printando na tela cada item
 
-for n in range(2):
-    for c in range(3):
+for n in range(len(listas)):
+    for c in range(len(listas[n])):
         print(listas[n][c].title())
 
 print("#############################")
 #Adicionando itens nas listas
 
-list1.append('pêra')
-list2.append('maçã')
+listas[0].append('pêra')
+listas[1].append('maçã')
 
-#Testando declarando novamente a matriz
+#Testando acrescentando novos itens as listas list1 e list2 diretamente pela matriz
 
-listas = [list1,list2]
-
-for n in range(2):
-    for c in range(4):
+for n in range(len(listas)):
+    for c in range(len(listas[n])):
         print(listas[n][c].title())
