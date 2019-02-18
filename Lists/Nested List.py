@@ -16,8 +16,6 @@ print("#############################")
 listas[0].append('pêra')
 listas[1].append('maçã')
 
-#Testando acrescentando novos itens as listas list1 e list2 diretamente pela matriz
-
 for n in range(len(listas)):
     for c in range(len(listas[n])):
         print(listas[n][c].title())
